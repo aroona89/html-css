@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Learn HTML by building a Tourist Attraction App</title>
+</head>
+
+<body>
+    <main>
+        <h1>Tourist Atrractions</h1>
+        <section>
+            <h2>Discover Destinations</h2>
+            <!-- TODO: Add link to explore destinations  -->
+            <p>Explore the most <a href="https://youtube.com/@brainoverthink?si=YOqoEt653nsaLnKu"
+                    target="_blank">beautiful places</a> on Earth.</p>
+            <a href="https://youtube.com/@brainoverthink?si=YOqoEt653nsaLnKu" target="_blank"><img
+                    src="https://images.unsplash.com/photo-1595815771614-ade9d652a65d?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTF8fGthc2htaXJ8ZW58MHx8MHx8fDA%3D"
+                    width="400" height="300" alt="A Glimpse of Serene Lake in the Valley of Kashmir"></a>
+            <!-- <a href="https://youtube.com/@brainoverthink?si=YOqoEt653nsaLnKu">link to Destinations</a> -->
+        </section>
+        <section>
+            <h2>
+                Destinations List
+            </h2>
+            <h3>
+                Must Visit:
+            </h3>
+            <ul>
+                <li>Hunza Valley</li>
+                <li>Skardu</li>
+                <li>Swat Valley</li>
+                <li>Kaghan Valley</li>
+            </ul>
+            <figure>
+                <img src="https://plus.unsplash.com/premium_photo-1697730277839-440df1a4415f?q=80&w=2070&auto=format&fit=crop&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8fA%3D%3D"
+                    width="350" height="300" alt="Kashmir view">
+                <figcaption>Go where you feel most <em>alive.</em></figcaption>
+            </figure>
+            <h3>Outdoor Activities:</h3>
+            <ol>
+                <li>River Rafting</li>
+                <li>Paragliding</li>
+                <li>hiking</li>
+                <li>Scuba Diving</li>
+            </ol>
+            <figure>
+                <img src="https://plus.unsplash.com/premium_photo-1661889971049-6f0a39a3476f?w=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MXx8cml2ZXIlMjByYWZ0aW5nfGVufDB8fDB8fHww"
+                    width="350" height="300" alt="river rafting">
+                <figcaption>Play is a <strong>necessity.</strong></figcaption>
+            </figure>
+        </section>
+        <section>
+            <h2>Tourist Form</h2>
+            <form action="tourist-form.html">
+                <fieldset>
+                    <legend>Are you an indoor or outdoor person?</legend>
+                    <label><input type="radio" id="indoor" name="indoor-outdoor" value="indoor" checked> Indoor</label>
+                    <label><input type="radio" id="outdoor" name="indoor-outdoor" value="outdoor"> Outdoor</label>
+                </fieldset>
+                <fieldset>
+                    <legend>What is your personality?</legend>
+                    <input type="checkbox" name="personality" id="introvert" value="introvert" checked> <label
+                        for="introvert">Introvert</label>
+                    <input type="checkbox" name="personality" id="extrovert" value="extrovert"> <label
+                        for="extrovert">Extrovert</label>
+                    <input type="checkbox" name="personality" id="ambivert" value="ambivert"> <label
+                        for="ambivert">Ambivert</label>
+                </fieldset>
+                <input type="text" name="destinationURL" placeholder="favourite destination URL" required>
+                <button type="submit">Submit</button>
+            </form>
+    </main>
+    <footer>
+        <p>© 2024 Copyright by <a href="https://youtube.com/@brainoverthink?si=YOqoEt653nsaLnKu"
+                target="_blank">BrainOverthink</a>. All Rights Reserved.</p>
+    </footer>
+</body>
+
+</html>
