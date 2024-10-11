@@ -37,11 +37,16 @@ a {
   text-align: center;
   color: rgb(105, 99, 99);
   margin: 0 auto;
+  /* Breaking it down:
+  0: Sets the top and bottom margins to 0.
+  auto: Sets the left and right margins to automatic.
+  The browser will automatically calculate the left and right margins to center the element horizontally.
+ */
 }
 .main_container {
   display: grid;
   gap: 1.5rem;
-  /* grid-template-columns: repeat(1, 1fr); */
+  /* grid-template-columns: repeat(4, 1fr); */
   grid-template-columns: repeat(auto-fit, minmax(350px, 400px));
   justify-content: center;
 }
@@ -124,6 +129,9 @@ a {
   justify-content: space-between;
   align-items: flex-end;
   padding: 0 1.5rem;
+  /* This CSS declaration sets the padding for an element:
+  0: No padding on top and bottom.
+  1.5rem: 1.5 times the root element's font size (typically 24px) padding on left and right. */
   padding-bottom: 1.5rem;
 }
 
